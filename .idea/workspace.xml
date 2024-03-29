@@ -4,20 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="commit inicial">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/ConsertoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/MecanicoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/VeiculoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Mecanico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Veiculo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/ConsertoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V1__create-table-consertos.sql" afterDir="false" />
+    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="criação - estrutura inicial do projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DTO/ConsertoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/ConsertoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,11 +70,19 @@
       <option name="project" value="LOCAL" />
       <updated>1711536171942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="criação - estrutura inicial do projeto">
+      <created>1711657406409</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711657406409</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit inicial" />
+    <MESSAGE value="criação - estrutura inicial do projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação - estrutura inicial do projeto" />
   </component>
 </project>
