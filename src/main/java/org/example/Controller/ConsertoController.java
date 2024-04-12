@@ -7,7 +7,6 @@ import org.example.Model.Conserto;
 import org.example.Model.Mecanico;
 import org.example.Model.Veiculo;
 import org.example.Service.FindAllConsertoService;
-import org.example.Service.FindListagemConsertoService;
 import org.example.Service.SalvarConsertoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -28,9 +27,6 @@ public class ConsertoController {
 
     @Autowired
     FindAllConsertoService findAll;
-
-    @Autowired
-    FindListagemConsertoService findAllListagemConserto;
 
     @PostMapping("/consertos")
     public ResponseEntity<Conserto> salvarConserto(@RequestBody @Valid ConsertoDTO consertoDTO){
@@ -63,7 +59,7 @@ public class ConsertoController {
     @GetMapping("/consertos/alguns-dados")
     public ResponseEntity<Page<DadosListagemConsertoDTO>> findDadosListagemConsertos(
             @PageableDefault Pageable pageable){
-        var pageDadosConsertos =  findAllListagemConserto.executar(pageable);
+        var pageDadosConsertos = findAll.executar(pageable).map(DadosListagemConsertoDTO::new);
         return ResponseEntity.status(HttpStatus.OK).body(pageDadosConsertos);
     }
 }
