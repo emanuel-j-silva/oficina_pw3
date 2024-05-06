@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="alteração do POM">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Exception/ConsertoNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/FindOneConsertoService.java" afterDir="false" />
+    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="criação do método findOne, inclusão de exception handler">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/AtualizaConsertoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/DeleteConsertoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/FindAllAtivoConsertoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__alter-table-consertos-inserir-ativo.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DTO/DadosListagemConsertoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/DadosListagemConsertoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Repository/ConsertoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/ConsertoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service/FindAllConsertoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/FindAllConsertoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +60,6 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Desktop/IFSP/4º Semestre/PW3S4/api-oficina-carlao/api&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
@@ -124,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1713293460963</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="criação do método findOne, inclusão de exception handler">
+      <created>1714565743274</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714565743274</updated>
+    </task>
+    <task id="LOCAL-00010" summary="criação do método findOne, inclusão de exception handler">
+      <created>1714565770221</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714565770221</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -136,6 +155,7 @@
     <MESSAGE value="criação de endpoint para listagem de dados específicos" />
     <MESSAGE value="correção do endpoint" />
     <MESSAGE value="alteração do POM" />
-    <option name="LAST_COMMIT_MESSAGE" value="alteração do POM" />
+    <MESSAGE value="criação do método findOne, inclusão de exception handler" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação do método findOne, inclusão de exception handler" />
   </component>
 </project>

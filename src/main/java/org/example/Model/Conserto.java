@@ -27,4 +27,6 @@ public class Conserto {
 
     @Embedded
     private Veiculo veiculo;
+
+    private Boolean ativo = false;
 }

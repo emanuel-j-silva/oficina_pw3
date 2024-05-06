@@ -7,16 +7,14 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
-
 @Service
-public class FindAllConsertoService {
+public class FindAllAtivoConsertoService {
 
     @Autowired
     ConsertoRepository consertoRepository;
 
     public Page<Conserto> executar(Pageable pageable){
-        var pageConsertos = consertoRepository.findAll(pageable);
+        var pageConsertos = consertoRepository.findByAtivoTrue(pageable);
         return pageConsertos;
     }
 }
