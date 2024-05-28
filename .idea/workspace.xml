@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Config/SecurityConfigurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/DadosErroValidacaoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/UsuarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/AuthenticationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__create-table-usuarios.sql" afterDir="false" />
+    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="implementação inicial do Spring Security">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/AuthenticationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/UsuarioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__insere-emanuel.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Config/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Config/SecurityConfigurations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Usuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -150,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714972982704</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="implementação inicial do Spring Security">
+      <created>1716856514829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1716856514829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -164,6 +167,7 @@
     <MESSAGE value="alteração do POM" />
     <MESSAGE value="criação do método findOne, inclusão de exception handler" />
     <MESSAGE value="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados" />
+    <MESSAGE value="implementação inicial do Spring Security" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação inicial do Spring Security" />
   </component>
 </project>
