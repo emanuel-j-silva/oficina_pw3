@@ -4,18 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="criação do método findOne, inclusão de exception handler">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/AtualizaConsertoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/DeleteConsertoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/FindAllAtivoConsertoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V4__alter-table-consertos-inserir-ativo.sql" afterDir="false" />
+    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Config/SecurityConfigurations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/DadosErroValidacaoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/UsuarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/AuthenticationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__create-table-usuarios.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/ConsertoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DTO/DadosListagemConsertoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/DadosListagemConsertoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Model/Conserto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Repository/ConsertoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Repository/ConsertoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service/FindAllConsertoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/FindAllConsertoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Record" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -143,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1714565770221</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados">
+      <created>1714972982704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714972982704</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -156,6 +163,7 @@
     <MESSAGE value="correção do endpoint" />
     <MESSAGE value="alteração do POM" />
     <MESSAGE value="criação do método findOne, inclusão de exception handler" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação do método findOne, inclusão de exception handler" />
+    <MESSAGE value="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados" />
   </component>
 </project>
