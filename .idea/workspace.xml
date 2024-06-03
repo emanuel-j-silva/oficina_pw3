@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="implementação de userDetails, inserção de usuário no banco">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Service/TokenService.java" afterDir="false" />
+    <list default="true" id="53888c6f-e098-4dd9-934d-40e5c297ef02" name="Changes" comment="implementação de token JWT">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DTO/TokenDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Security/SecurityFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/DATA/oficinapw3.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Config/SecurityConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Security/SecurityConfigurations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Service/TokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Security/TokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +53,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Desktop/IFSP/4º Semestre/PW3S4/api-oficina-carlao/api&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Desktop/Linguagem Java/api-final-carlao",
+    "settings.editor.selected.configurable": "advanced.settings"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Oficina PW3" type="Application" factoryName="Application">
+      <envs>
+        <env name="JWT_SECRET" value="12345678" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="oficina_pw3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -157,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1716861624002</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="implementação de token JWT">
+      <created>1717304011904</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1717304011904</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -173,6 +196,7 @@
     <MESSAGE value="criação dos métodos de exclusão lógica e atualização, alteração da listagem de alguns dados" />
     <MESSAGE value="implementação inicial do Spring Security" />
     <MESSAGE value="implementação de userDetails, inserção de usuário no banco" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementação de userDetails, inserção de usuário no banco" />
+    <MESSAGE value="implementação de token JWT" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementação de token JWT" />
   </component>
 </project>

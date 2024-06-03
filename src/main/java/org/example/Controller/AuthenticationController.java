@@ -1,9 +1,10 @@
 package org.example.Controller;
 
 import jakarta.validation.Valid;
+import org.example.DTO.TokenDTO;
 import org.example.DTO.UsuarioDTO;
 import org.example.Model.Usuario;
-import org.example.Service.TokenService;
+import org.example.Security.TokenService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -26,7 +27,8 @@ public class AuthenticationController {
     public ResponseEntity efetuaLogin(@RequestBody @Valid UsuarioDTO usuarioDTO){
         var token = new UsernamePasswordAuthenticationToken(usuarioDTO.username(),usuarioDTO.password());
         var authentication = manager.authenticate(token);
+        var tokenJWT = tokenService.generateToken((Usuario) authentication.getPrincipal());
 
-        return ResponseEntity.ok(tokenService.generateToken((Usuario) authentication.getPrincipal()));
+        return ResponseEntity.ok(new TokenDTO(tokenJWT));
     }
 }
